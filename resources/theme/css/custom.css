@@ -1,0 +1,35 @@
+:root {
+    --custom-dark-bg: #212130;
+    --custom-text-dark: #fff;
+    --custom-text-light: #6e6e6e;
+}
+
+.image-shadow {
+    border: 3px solid var(--primary);
+    box-shadow: 0 0 7px var(--primary);
+}
+
+.custom-spinner-sm {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-width: 2px;
+}
+
+.fi {
+    position: relative;
+    top: 2px !important;
+}
+
+[data-theme-version='dark'] .switch {
+    background: #dadada !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 27px;
+    background-color: var(--primary); /* Color of the thumb (the draggable part) */
+}
